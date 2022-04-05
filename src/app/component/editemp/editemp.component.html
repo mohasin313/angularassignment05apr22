@@ -1,0 +1,32 @@
+<form (ngSubmit)="empedit()" >
+    <div class="row m-4" >
+        <div class="col-sm-6" >
+            <label for="">First Name :</label>
+            <input type="text" class="form-control" name="fname" [(ngModel)]="fname" >
+        </div>
+    </div>
+    <div class="row m-4" >
+        <div class="col-sm-6" >
+            <label for="">Last Name :</label>
+            <input type="text" class="form-control" name="lname" [(ngModel)]="lname">
+        </div>
+    </div>
+    <div class="row m-4" >
+        <div class="col-sm-6" >
+            <label for="">Email Name :</label>
+            <input type="text" class="form-control" name="email" [(ngModel)]="email">
+        </div>
+    </div>
+    <div class="row m-4" >
+        <div class="col-sm-6" >
+            <label for="">Contact Name :</label>
+            <input type="text" name="contact" [(ngModel)]="contact">
+        </div>
+    </div>
+    <div class="row m-4" >
+        <div class="col-sm-6" >
+           <input type="submit" value="Edit" class="btn btn-primary">
+        </div>
+    </div>
+    
+</form>

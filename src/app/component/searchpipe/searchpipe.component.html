@@ -1,0 +1,7 @@
+<h2>Custom Search Pipe</h2>
+   <input type="text" id="search" [(ngModel)]="search" />
+   <p [ngStyle]="{color:'red'}" >{{ search }}</p>
+   <button class="btn btn-primary" (click)="check()"  >Search</button>
+  <ul class="list-group m-4">
+    <li class="list-group-item" *ngFor="let a of array" >{{ a }}</li>
+  </ul>
